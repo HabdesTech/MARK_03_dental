@@ -239,7 +239,7 @@ function recopilacionDatos() {
   }
 
   window.open(
-    `https://api.whatsapp.com/send/?phone=51960995232&text=%F0%9F%91%8B+Hola%21+Acabo+de+realizar+una+reserva+en+https://veterinaria.habdes.digital/%3A%0A%0A%F0%9F%91%A9%F0%9F%8F%BB%E2%80%8D%F0%9F%92%BBDATOS+DEL+CLIENTE%3A%0ANombre%3A+${nombreUsuario.value}%0ADNI%3A+${dniUsuario.value}%0ATeléfono%3A+${telefonoUsuario.value}%0ACorreo+electrónico%3A+${correoUsuario.value}%0A%0A%F0%9F%93%A6+DETALLE+DE+LA+RESERVA%3A%0AServicios%3A+${servicioSolicitado}%0AFecha%3A+${fechaReserva.value}%0AHora%3A+${horaSolicitada}%0ATotal+a+pagar%3A+S/.+${calculoDeServicio}%0A%0A%F0%9F%92%B3+MÉTODO+DE+PAGO%3A%0AMétodo+de+pago+solicitado%3A+${formaPago}%0A%0A-------------------------------------------------------------------%0AEspere+mientras+confirmamos+su+reserva.+Gracias`,
+    `https://api.whatsapp.com/send/?phone=51960995232&text=%F0%9F%91%8B+Hola%21+Acabo+de+realizar+una+reserva+en+https://dental.habdes.digital/%3A%0A%0A%F0%9F%91%A9%F0%9F%8F%BB%E2%80%8D%F0%9F%92%BBDATOS+DEL+CLIENTE%3A%0ANombre%3A+${nombreUsuario.value}%0ADNI%3A+${dniUsuario.value}%0ATeléfono%3A+${telefonoUsuario.value}%0ACorreo+electrónico%3A+${correoUsuario.value}%0A%0A%F0%9F%93%A6+DETALLE+DE+LA+RESERVA%3A%0AServicios%3A+${servicioSolicitado}%0AFecha%3A+${fechaReserva.value}%0AHora%3A+${horaSolicitada}%0ATotal+a+pagar%3A+S/.+${calculoDeServicio}%0A%0A%F0%9F%92%B3+MÉTODO+DE+PAGO%3A%0AMétodo+de+pago+solicitado%3A+${formaPago}%0A%0A-------------------------------------------------------------------%0AEspere+mientras+confirmamos+su+reserva.+Gracias`,
     "_blank"
   );
   actualizarVentana();
